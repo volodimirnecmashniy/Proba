@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson2 3</title>
+</head>
+<body>
+<form name="info" action="/basse.php">
+<H3>Name</H3>
+<input type="text" name="name" value="name"><br/>
+    <H3>Email</H3>
+<input type="text" name="email" value="email"><br/>
+    <H3>Sex</H3>
+    <p><input type="radio" name="sex" value="male" >Male
+    <input type="radio" name="sex" value="female" >Female</p>
+    <h3>Current status</h3>
+    <p><input type="checkbox" name="student" value="student"> Student <br/>
+        <input type="checkbox" name="employed" value="employed"> Employed<br/>
+        <input type="checkbox" name="unemployed" value="unemployed"> Unemployed<br/>
+        </p>
+    <h3> Month and Year of birth</h3>
+    <select name="Month" >
+        <option value="1"> January</option>
+        <option value="2"> February</option>
+        <option value="3">March</option>
+        <option value="4">April</option>
+            </select>
+    <select name="Year" >
+        <option value="1993">1993</option>
+        <option value="1994">1994</option>
+        <option value="1995">1995</option>
+        <option value="1996">1996</option>
+    </select> <br/>
+    <H3> Skills and Technologies</H3>
+    <select>
+        <optgroup label="Tech skills">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="javascript">JavaScript</option>
+            <option value="git">git</option>
+        </optgroup>
+        <optgroup label="Soft skills">
+            <option value="TM">Time management</option>
+            <option value="p">Proactivity</option>
+            <option value="t">Teamwork</option>
+            <option value="l">Leadership</option>
+        </optgroup>
+    </select>
+    <h3>Photo</h3>
+    <input type="file"> <br/>
+    <h3>Comments</h3>
+    <textarea name="comments" cols="20" rows="4"></textarea> <br/>
+    <input type="submit" value="send" >
+
+</form>
+</body>
+</html>
